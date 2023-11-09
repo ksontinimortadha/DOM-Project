@@ -2,7 +2,7 @@
 
 # Shopping Cart Web Page
 
-This is a simple HTML web page for a shopping cart,I named it "IStore." It allows users to view and manage items in their shopping cart.
+This is a simple HTML web page for a shopping cart, I named it "IStore." It allows users to view and manage items in their shopping cart.
 
 ## Description
 
