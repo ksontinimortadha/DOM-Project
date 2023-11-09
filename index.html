@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/86c58f43fa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header / nav bar -->
+    <header>
+        <nav>
+            <button id="cart-btn">
+                <i class="fa-solid fa-bag-shopping fa-xl"></i>
+            </button>
+            <h2><i class="fa-brands fa-apple fa-l"></i>IStore</h2>
+        </nav>
+    </header>
+    <!-- side bar => shopping list -->
+    <div id="cart-sidebar" class="cart-sidebar">
+        <!-- title -->
+        <div class="cart-header">
+            <h1>Shopping Cart</h1>
+            <button id="close-btn">
+                <i class="fa-solid fa-xmark fa-l"></i>
+            </button>
+        </div>
+        <!-- product 1 -->
+        <div class="products">
+            <div class="product">
+                <div class="details">
+                    <img class="product-img" src="/img/airpods pro.png" alt="">
+                    <div class="product-info">
+                        <span class="product-name">Airpods Pro</span>
+                        <span class="product-price">$249</span>
+                    </div>
+                </div>
+                <div class="controls">
+                    <div class="btn">
+                        <button class="like-product"><i class="fa-solid fa-heart fa-l"></i></button>
+                        <button class="remove-product"><i class="fa-solid fa-trash fa-l"></i></button>
+                    </div>
+                    <div class="quantity">
+                        <button class="quantity-decrease"><i class="fa-solid fa-minus fa-l"></i></button>
+                        <span class="product-quantity">1</span>
+                        <button class="quantity-increase"><i class="fa-solid fa-plus fa-l"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- product 2 -->
+            <div class="product">
+                <div class="details">
+                    <img class="product-img" src="/img/case.png" alt="">
+                    <div class="product-info">
+                        <span class="product-name">Case AirPods Pro</span>
+                        <span class="product-price">$34.95</span>
+                    </div>
+                </div>
+                <div class="controls">
+                    <div class="btn">
+                        <button class="like-product"><i class="fa-solid fa-heart fa-l"></i></button>
+                        <button class="remove-product"><i class="fa-solid fa-trash fa-l"></i></button>
+                    </div>
+                    <div class="quantity">
+                        <button class="quantity-decrease"><i class="fa-solid fa-minus fa-l"></i></button>
+                        <span class="product-quantity">1</span>
+                        <button class="quantity-increase"><i class="fa-solid fa-plus fa-l"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- price -->
+            <div class="total-price">
+                <p>
+                    Total : <span id="total">$283.95</span>
+                </p>
+                <button class="buy">BUY NOW <i class="fa-solid fa-cart-shopping fa-l"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
